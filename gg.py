@@ -59,15 +59,9 @@ def Tele(ccx):
 	if "20" in yyy:
 		yyy = yyy.split("20")[1]
     
-	username = "pchigogKJE-res-any"
-	password = "PC_0Ap2T7KNFNbjNRWqL"
-	proxy = "proxy.rapidseedbox.com:5959"
-	proxies = {
-                    "http": f"http://{username}:{password}@{proxy}",
-                    "https": f"http://{username}:{password}@{proxy}"
-                }
+
 	r = requests.Session()
-	r.proxies.update(proxies)
+
 	fake = Faker()
 	ua = user_agent.generate_user_agent()
 
