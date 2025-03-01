@@ -260,7 +260,7 @@ def Tele(ccx):
 		if type_value == 'success':
 			return 'Card has been added successfully'
 		elif 'CVC Declined' in text_value:
-			return 'CVC Declined'
+			return 'Approved'
 
 		else:
 			return text_value
