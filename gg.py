@@ -41,7 +41,7 @@ card_count = 0
 email, password = get_next_account()
 
 
-def adyenauth(ccx):
+def Tele(ccx):
 	global card_count, email, password
 	card_count += 1
 
